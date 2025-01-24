@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
+        <meta name="Author" content="10minds" />
+        <meta name="Keywords" content="10minds" />
+        <meta name="Description" content="10minds" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="10minds" />
+        <meta property="og:site_name" content="10minds" />
+        <meta property="og:description" content="10minds" />
+    
+        <link rel="shortcut" type="image/x-icon" href="/" />
+        <!--<link href="//db.onlinewebfonts.com/c/67680f2eb947c5cbd58b40961b4a61e9?family=Apple+SD+Gothic+Neo" rel="stylesheet" type="text/css"/>-->
+
+        <!--[if lt IE 9] 
+        <IE9 이하에서 html5 태그 사용 (header, nav, footer, article, section, aside, hgroup, figure, figcaption 등)>
+        <script src="../common/js/html5shiv.js"></script>
+        <![endif]-->
+
+        <style>
+            /********* reset.css **********/
+            html, body, div, span, applet, object, iframe,
+            h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+            a, abbr, acronym, address, big, cite, code,
+            del, dfn, em, img, ins, kbd, q, s, samp,
+            small, strike, strong, sub, sup, tt, var,
+            b, u, i, center,
+            dl, dt, dd, ul, ol, li,
+            fieldset, form, label, legend,
+            article, aside, canvas, details, embed, 
+            figure, figcaption, footer, header, hgroup, 
+            menu, nav, output, ruby, section, summary,
+            time, mark, audio, video {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+                box-sizing:border-box;
+                -webkit-box-sizing:border-box; 
+                -moz-box-sizing:border-box;
+                vertical-align: baseline;
+            }
+
+            /* HTML5 display-role reset for older browsers */
+            article, aside, details, figcaption, figure, 
+            footer, header, hgroup, menu, nav, section {
+                display: block;
+            }
+
+            ul,ol,li {margin: 0; padding: 0; list-style: none;}
+            img, video {max-width: 100%; border: none; -webkit-perspective: 1; perspective: 1;}
+            a {color: inherit; text-decoration: none;}
+            table {box-sizing: border-box; border-collapse: collapse; border-spacing: 0; table-layout: fixed;}
+            table th, table td {box-sizing: border-box; border-top-width: 0;}
+            h1,h2,h3,h4,h5,h6 {font-size: 1em; font-weight: normal; line-height: 1.2em;}
+            p, br, hr, pre, strong, em, span, q, mark, ruby, i, cite, code, kbd, small, sub, sup, s, u, b, dfn, var {line-height: 1.4em;}
+            address {font-style: normal;}
+            .clearfix:after, ul::after, ol::after {content: ""; display: block; clear: both;}
+            html {height: 100%;}
+            html, body {width: 100%;}
+            .hide {display: inline-block; overflow: hidden; position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; clip: rect(1px, 1px, 1px, 1px); clip-path: inset(50%);}
+
+            /********* font.css **********/
+            /*@font-face {font-family: "Apple SD Gothic Neo"; src: url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.eot"); src: url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.woff") format("woff"), url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.svg#Apple SD Gothic Neo") format("svg"); }*/
+
+            /********* main.css **********/
+            body {overflow-x: hidden; background:#fff; color: #2e2e2e; padding: 50px 0; font-family: "Apple SD Gothic Neo", sans-serif;}
+            .kwpBox {overflow-x: hidden; width: 375px; min-height: 712px; margin: 0 auto; padding: 0 30px; background: url(./download/pages/images/bg_figure_01.png) no-repeat top left; border: 1px solid #e2e2e2;}
+            .logoDownBox {margin-top: 100px; text-align: center;}
+            h1 {display: inline-block; width: 160px;}
+            .logoDownBox img {height: 108px;}
+            .logoDownBox ul {display: flex; position: relative; justify-content: center;}
+            .logoDownBox ul:after {content: ''; position: absolute; top: -80px; right: -40px; z-index: -1; width: 126px; height: 218px; background: url(./download/pages/images/bg_figure_02.png) no-repeat center;}
+            .logoDownBox ul > li {flex: 1; overflow: hidden; border-radius: 3px; -webkit-border-radius: 3px; box-shadow: 0 3px 7px rgba(0,0,0,0.24); -webkit-box-shadow: 0 3px 7px rgba(0,0,0,0.24);}
+            .logoDownBox ul > li:not(:last-child) {margin-right: 8px;}
+            .logoDownBox ul > li a {display: block; height: 100%; padding-bottom: 40px; background: #80cd1b url(./download/pages/images/download@2x.png) no-repeat bottom 8px center; background-size: 18px;}
+            .logoDownBox ul > li div {height: 130px; padding: 16px 0 12px; background-color: #fff;}
+            .logoDownBox ul > li img {height: 32px;}
+            .logoDownBox ul > li b {display: block; margin-top: 5px; font-weight: 700; font-size: 18px; line-height: 1.2;}
+            .logoDownBox ul > li span {font-size: 12px; color: #7bcc12;}
+            .infomation {position: relative; margin-top: 50px;}
+            .infomation:after {content: ''; position: absolute; top: -100px; left: -30px; z-index: -1; width: 362px; height: 267px; background: url(./download/pages/images/bg_figure_03.jpg) no-repeat center;}
+            .infomation > li:not(:last-child) {margin-bottom: 20px;}
+            .infomation > li b {display: block; font-size: 12px; font-weight: 700;}
+            .infomation ol > li, .infomation > li > span {font-size: 12px; color: #707070;}
+
+            @media screen and (max-width: 699px) {
+                body {padding: 0 0; }
+                .kwpBox {width: 100%; height:100%;min-height:100}
+            }
+        </style>
+    
+        <title>e-RUN</title>
+    </head>
+
+    <body>
+        <section class="kwpBox">
+            <div class="logoDownBox">
+                <div style="margin-bottom:20px; font-size:2em; font-weight:bold;">
+					<h1 style="width:200px;">TEST</h1>
+                </div>
+                <ul>
+                    
+                    <li>
+                        <a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/scl/fi/ixlwu34jy3t4mx8qm5dzp/manifest.plist?rlkey=ay854nvqv24r9inxdu7g6p4ib" class="downBtn">
+                            <div>
+                                <b>IOS <br>Mobile App</b>
+                                <span>Download</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </body>
+</html>
